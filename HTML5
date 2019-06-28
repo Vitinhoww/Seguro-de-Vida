@@ -1,0 +1,171 @@
+<html>
+<head>
+
+    <meta charset="UTF-8" />
+    <title>Site da corretora</title>
+    <style>
+        body {
+            font-family: Arial,'Agency FB';
+            background-color: teal;
+            padding: 0px;
+            margin: 0px auto 0px auto;
+            border-bottom: 5px #000000 solid;
+            border-top: 5px #000000 solid;
+            border-left: 5px #000000 solid;
+            border-right: 5px #000000 solid;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            font-family: Arial,'Agency FB';
+            font-size: 50pt;
+            color: white;
+            text-shadow: 2px 2px 2px midnightblue;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: 'Agency FB', Arial;
+            font-size: 15pt;
+            text-shadow: 2px 2px 2px midnightblue;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+
+        table {
+            color: white;
+            font-family: 'Agency FB', Arial;
+            border-bottom: 2px #000000 solid;
+            border-top: 2px #000000 solid;
+            border-left: 2px #000000 solid;
+            border-right: 2px #000000 solid;
+            margin-left: auto;
+            margin-right: auto;
+            border-spacing: 0px;
+            padding: 5px;
+            background-color: #000000;
+        }
+
+        td {
+            font-family: 'Agency FB', Arial;
+            border-bottom: 2px #000000 solid;
+            border-top: 2px #000000 solid;
+            border-left: 2px #000000 solid;
+            border-right: 2px #000000 solid;
+        }
+
+        a {
+            text-decoration: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        p {
+            text-align: center;
+            font-family: 'Agency FB', Arial;
+            font-size: 15pt;
+            margin-left: auto;
+            margin-right:auto;
+        }
+
+        fieldset {
+            text-align: center;
+            font-size: 15pt;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        button {
+            font-family: 'Agency FB', Arial;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 15pt;
+            text-align: left;
+        }
+    </style>
+
+</head>
+
+<body>
+        <header id="cabecalho">
+        <hgroup>
+            <h1>Quanto vale sua vida?</h1>
+            <a href= "http://www.ssatcorretora.com.br/home" target="blank"><h2>www.ssatincubadora.com.br</h2></a>
+        </hgroup>
+                     
+            <fieldset id="pessoa">
+                <form method="get" id="fvida" action="/corretora.html">
+                    <p>
+                        <label for="cNome">
+                            Nome :<input type="text" name="tNome" id="cNome" size="22" maxlength="50" placeholder="Nome completo" required />
+                        </label>
+                    </p>
+
+                    <p>
+                        <label for="cSalario">
+                            Renda :<input type="number" name="tSalario" size="25" id="cSalario" maxlength="5" placeholder="Renda mensal" required />
+                        </label>
+                    </p>
+
+                    <p>
+                        <label for="cIdade">
+                            Idade :<input type="date" name="Idade" id="cIdade" size="25" maxlength="8" placeholder="Data de nascimento" required />
+                        </label>
+                    </p>
+
+                    <p>
+                        <label for "cCasado">Estado civil: </label>
+                        <select name="tCasado" id="ccasado">
+                            <option required></option>
+                            <option required>Solteiro</option>
+                            <option required>Casado</option>
+                    </p>
+
+                    </select>
+
+                    <p>
+                        <labelfor "cFilhos">Possui Filhos:</labelfor>
+                        <select name="tFilhos" id="cFilhos">
+                            <option required></option>
+                            <option required>Não</option>
+                            <option required>Sim</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="cdoenca">Historico de Doença Terminal na Familia ?</label>
+                        <select name="tDoenca" id="cdoenca">
+                            <option required></option>
+                            <option required>Não</option>
+                            <option required>Sim</option>
+                    </p>
+                    
+                    </select>
+                    <p><button>Enviar</button></p>
+                   
+</fieldset>
+          
+
+              <p>
+        <table>
+                <caption><td>Telefones para contato</td><td>Telefones</td></caption>
+                <tr> <td>Whatsapp</td><td>99843-4369</td></tr>
+                <tr> <td>Telefone Fixo</td><td>4063-8570</td></tr>
+        </table>
+        </p>
+
+
+          
+
+
+
+
+
+
+        </header>
+
+
+</body>
+</html>
